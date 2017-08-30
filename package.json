@@ -1,0 +1,14 @@
+{
+  "name": "dotdev-website",
+  "version": "0.0.0",
+  "description": "This is the website for Northwestern’s .dev club",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NU-DotDev/nu-dotdev.github.io.git"
+  },
+  "author": "Sanfeng Wang, Daniel Zhu, Jonathan Chan",
+  "bugs": {
+    "url": "https://github.com/NU-DotDev/nu-dotdev.github.io/issues"
+  },
+  "homepage": "https://github.com/NU-DotDev/nu-dotdev.github.io#readme"
+}

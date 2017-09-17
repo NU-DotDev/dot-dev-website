@@ -1041,13 +1041,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 0;
   margin: 0 0 1.5em 0;
-  padding-left: 50px;
   list-style: none;
 }
 #fh5co-contact .fh5co-contact-info li i {
-  position: absolute;
-  top: .2em;
-  left: 0;
+  position: relative;
+  padding-right: 20px;
+  top: .12em;
 }
 
 .section-heading {
@@ -1057,6 +1056,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 50px;
   clear: both;
 }
+
+.contact-heading {
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+  clear: both;
+}
+
+
 .section-heading h2 {
   margin: 0 0 30px 0;
   font-size: 50px;

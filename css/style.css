@@ -14,7 +14,7 @@
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: #777777;
   color: #7f7f7f;
@@ -43,6 +43,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
+}
+
+.column {
+	float: left;
+	width: 33.3%;
+	padding: 10px;
+}
+
+.column .img:after {
+	margin: 5px;
 }
 
 ::-webkit-selection {
@@ -672,6 +682,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   color: #fff;
 }
+#fh5co-services p {
+	font-size: 18px;
+}
 #fh5co-services .icon {
   font-size: 70px;
   margin-bottom: 30px;
@@ -808,7 +821,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
-#fh5co-testimonials .box-testimony blockquote:after {
+/*#fh5co-testimonials .box-testimony blockquote:after {
   content: "";
   position: absolute;
   top: 100%;
@@ -818,7 +831,7 @@ h1, h2, h3, h4, h5, h6 {
   border-top-color: #6bb5ff;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-}
+}*/
 #fh5co-testimonials .box-testimony blockquote p {
   font-style: italic;
   color: #fff;
@@ -1004,7 +1017,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-person .fh5co-position {
   color: #b3b3b3;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .form-control {
